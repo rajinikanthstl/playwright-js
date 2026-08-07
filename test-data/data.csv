@@ -1,0 +1,6 @@
+username,password,expectedResult
+test_user_001,SecurePass123!,failure
+test_user_002,MyP@ssw0rd99,failure
+practice,SuperSecretPassword!,success
+demo_admin,Demo1234!,failure
+broken_login_test,WrongPass$,failure

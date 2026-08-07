@@ -1,0 +1,29 @@
+{
+  "testUsers": [
+    {
+      "username": "test_user_001",
+      "password": "SecurePass123!",
+      "expectedResult": "failure"
+    },
+    {
+      "username": "test_user_002",
+      "password": "MyP@ssw0rd99",
+      "expectedResult": "failure"
+    },
+    {
+      "username": "practice",
+      "password": "SuperSecretPassword!",
+      "expectedResult": "success"
+    },
+    {
+      "username": "demo_admin",
+      "password": "Demo1234!",
+      "expectedResult": "failure"
+    },
+    {
+      "username": "broken_login_test",
+      "password": "WrongPass$",
+      "expectedResult": "failure"
+    }
+  ]
+}
